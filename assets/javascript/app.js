@@ -6,18 +6,18 @@ $(document).ready(function() {
     });
     $(".about").click(function() {
         $([document.documentElement, document.body]).animate({
-            scrollTop: $("#aboutCard").offset().top
+            scrollTop: $(".aboutBreak").offset().top
         }, 750);
     });
     $(".projects").click(function() {
         $([document.documentElement, document.body]).animate({
-            scrollTop: $("#projectCard").offset().top
-        }, 450);
+            scrollTop: $(".projectBreak").offset().top
+        }, 750);
     });
-    $(".projects").click(function() {
+    $(".contact").click(function() {
         $([document.documentElement, document.body]).animate({
-            scrollTop: $("#contactCard").offset().top
-        }, 450);
+            scrollTop: $(".contactBreak").offset().top
+        }, 750);
     });
 });
     
