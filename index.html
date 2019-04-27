@@ -21,56 +21,66 @@
         <div class='navBar'>
             <div class='about'>About</div>
             <hr>
-            <div class='projects'>Projects</div>
-            <hr>
             <div class='contact'>Contact</div>
         </div>
     </section>
     <div class='main-content'>
         <div class='container'>
-            
+            <div class='projectBreak'><br><br></div>
             <div class="leftColumn">
-            <div class='aboutBreak'><br><br></div>
-                <div class="card">
-                    <h2 id='infoCard'>About Me</h2>
-                    <h5>Short about me goes here</h5>
-                    <div class="" style="height:200px;">Image</div>
-                    <p>Some text..</p>
-                    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                </div>
-                <div class='projectBreak'><br><br></div>
-                <div class="card">
+            <div class="card">
                     <h2 id='infoCard'>Projects</h2>
+                    <hr>
+                    <br>
                     <main>
                         <input id="tab1" type="radio" name="tabs" checked>
-                        <label for="tab1">Javascript</label>
+                        <label for="tab1"><img class='languageImage' src="assets/images/javascript.png" alt="javascript"></label>
 
                         <input id="tab2" type="radio" name="tabs">
-                        <label for="tab2">Node.js</label>
+                        <label for="tab2"><img class='languageImage' src="assets/images/node.png" alt="javascript"></label>
 
                         <input id="tab3" type="radio" name="tabs">
-                        <label for="tab3">Firebase</label>
+                        <label for="tab3"><img class='languageImage' src="assets/images/firebase.png" alt="javascript"></label>
 
                         <input id="tab4" type="radio" name="tabs">
-                        <label for="tab4">MySQL</label>
+                        <label for="tab4"><img class='languageImage' src="assets/images/mysql.jpg" alt="javascript"></label>
 
                         <input id="tab5" type="radio" name="tabs">
-                        <label for="tab5">React.js</label>
+                        <label for="tab5"><img class='languageImage' src="assets/images/react.png" alt="javascript"></label>
 
                         <input id="tab6" type="radio" name="tabs">
-                        <label for="tab6">Express</label>
+                        <label for="tab6"><img class='languageImage' src="assets/images/express.png" alt="javascript"></label>
 
                         <section id="projectJs">
-                            <a href="http://brandonlublin.github.io/weather-spot/"></a><img class='projectImage' src="assets/images/weatherSpot.jpg"><h2 class='imageOverlay'>WeatherSpot</h2></a>
-                            <a href="http://brandonlublin.github.io/train-station/"></a><img class='projectImage' src="assets/images/trainStation.jpg"><h2 class='imageOverlay'>Train Station<br> Application</h2></a>
-                            <a href="http://brandonlublin.github.io/word-guess-game/"></a><img class='projectImage' src="assets/images/wordGuess.jpg"></a>
-                            <a href="http://brandonlublin.github.io/unit-4-game/"></a><img class='projectImage' src="assets/images/crystalGame.jpg"></a>
+                            <div class='projectCard'>
+                                <a href="http://brandonlublin.github.io/weather-spot/"><img class='projectImage' src="assets/images/weatherSpot.jpg"></a>
+                                <div class="cardBody">
+                                    <h4 class='innerCardText'><b>Weather Spot</b></h4> 
+                                </div>  
+                            </div>
+                            <div class='projectCard'>
+                                <img class='projectImage' src="assets/images/wordGuess.jpg"></a>
+                                <div class="cardBody">
+                                    <h4 class='innerCardText'><b>Word-Guess-Game</b></h4> 
+                                </div>  
+                            </div>
+                            <div class='projectCard'>
+                                <a href="http://brandonlublin.github.io/unit-4-game/"><img class='projectImage' src="assets/images/crystalGame.jpg"></a>
+                                <div class="cardBody">
+                                    <h4 class='innerCardText'><b>Crystal Game</b></h4> 
+                                </div>  
+                            </div>
                         </section>
-                        
                         <section id="node">
                         </section>
                         
                         <section id="firebase">
+                            <div class='projectCard'>
+                                <a href="http://brandonlublin.github.io/train-schedule/"><img class='projectImage' src="assets/images/trainStation.jpg"></a>
+                                <div class="cardBody">
+                                    <h4 class='innerCardText'><b>Crystal Game</b></h4> 
+                                </div>  
+                            </div>
                         </section>
                         
                         <section id="mySql">
@@ -83,13 +93,42 @@
                         </section>
                     </main>
                 </div>
+                <div class='aboutBreak'><br><br></div>
+                <div class="card">
+                    <h2 id='infoCard'>About Me</h2>
+                    <hr>
+                    <br>
+                    <!-- <h5>Short about me goes here</h5>
+                    <div class="" style="height:200px;">Image</div> -->
+                    <p class='aboutMe'>My name is Brandon Lublin and I am an aspiring Full Stack developer! I got my first exposure in coding while in highschool. My highschool offered a 'Computer Basics and Web Design' course that taught me basic HTML principles and dabbled in CSS, but this was way back in 2008 so things have changed dramatically since then.</p>
+
+                    <p class='aboutMe'>I went to college at Boise State University where I studied History in hopes of getting into Law School but quickly determined that I wasn't cut out for the mass amounts of paperwork that comes with being a lawyer. After a few years away from school, and with my current position integrating a few skills that I thought were fairly similar to coding, I thought what better way to go back to school and finish what I started while trying to jump into a new career that I have a genuine interest in!?</p>
+
+                    <p class='aboutMe'>Anything that involves the outdoors is my lifeblood. In the summer, I love to hike, swim, travel, and go to sporting events, and during the winter, you'll have a tough time finding me anywhere else than the mountain. Snowboarding is probably my biggest hobby and there isn't many things I'd rather do than freeze my face off while cruising through some fluffy snow!!</p>
+                </div>
                 <div class='contactBreak'><br><br></div>
                 <div class="card">
-                    <h2 id='infoCard'>Contact</h2>
-                    <h5>Short about me goes here</h5>
-                    <div class="fakeimg" style="height:200px;">Image</div>
-                    <p>Some text..</p>
-                    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                    <div class='mainBlock'>        
+                        <h2>Contact</h2>
+                        <hr>
+                        <div class='textBox'>
+                            <p class='name'>Name</p>
+                            <textarea rows="1" cols="146">John Smith</textarea>
+                            <br><br>
+                            <p class='name'>Email</p>
+                            <textarea rows="1" cols="146">JohnSmith@gmail.com</textarea>
+                            <br>
+                            <p class='name'>Message</p>
+                            <textarea rows="10" cols="146"></textarea>
+                            <br>
+                            <button id='submitButton'>Submit</button>
+                        </div>
+                    </div> 
+                    <div class='logoSet'>
+                        <a href='https://github.com/brandonlublin'><img class='logoLink' src="assets/images/github.svg" alt="github"></a>
+                        <a href='https://www.linkedin.com/in/brandon-lublin-78a550a8/'><img class='logoLink' src="assets/images/linkedin.png" alt="linkedin"></a>
+                        <a href='#'><img class='logoLink' src="assets/images/resume.jpg" alt="resume"></a>
+                    </div>
                 </div>
                 <div><br><br></div>
             </div>

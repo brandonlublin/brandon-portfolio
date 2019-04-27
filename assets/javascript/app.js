@@ -1,6 +1,7 @@
 $(document).ready(function() {
+    $('.imageOverlay').hide();
     $(".arrow").click(function() {
-        $([document.documentElement, document.body]).animate({
+        $([document.documentElement, document.body]).animate({ 
             scrollTop: $(".main-content").offset().top
         }, 750);
     });
@@ -18,6 +19,11 @@ $(document).ready(function() {
         $([document.documentElement, document.body]).animate({
             scrollTop: $(".contactBreak").offset().top
         }, 750);
+    });
+    $('.projectImage').mouseover(function() {
+        $('.imageOverlay').show().top
+    }).mouseout(function() {
+        $('.imageOverlay').hide()
     });
 });
     
