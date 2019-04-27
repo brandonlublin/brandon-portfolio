@@ -125,11 +125,23 @@ body {
     padding: 20px;
 }
 .projectImage:hover {
-    transform:scale(1.2,1.1);
-    -webkit-transform:scale(1.2,1.1);
-    -moz-transform:scale(1.2,1.1);
+
     cursor: pointer;
 }
+#projectJs {
+    position: relative;
+}
+.imageOverlay {
+    position: absolute; 
+    top: 150px; 
+    left: 60px; 
+    width: 100%; 
+    color: white;
+    width: auto;
+    margin: auto;
+    text-shadow: 2px 2px #000;
+}
+
 p:not(:last-child) {
     margin: 0 0 20px;
 }
@@ -190,12 +202,12 @@ input:checked + label {
     border-bottom: 1px solid #fff;
 }
 
-#tab1:checked ~ #content1,
-#tab2:checked ~ #content2,
-#tab3:checked ~ #content3,
-#tab4:checked ~ #content4,
-#tab5:checked ~ #content5,
-#tab6:checked ~ #content6 {
+#tab1:checked ~ #projectJs,
+#tab2:checked ~ #node,
+#tab3:checked ~ #firebase,
+#tab4:checked ~ #mySql,
+#tab5:checked ~ #react,
+#tab6:checked ~ #express {
 display: block;
 }
 
@@ -232,6 +244,9 @@ main {
     height: auto;
     margin: auto;
     width: 90%;
+    /* padding: 0; */
+}
+.projectImage {
     padding-left: 0;
 }
 }
