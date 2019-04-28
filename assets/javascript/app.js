@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    $('.navBar').hide();
     $('.imageOverlay').hide();
     $(".arrow").click(function() {
         $([document.documentElement, document.body]).animate({ 
@@ -24,6 +25,14 @@ $(document).ready(function() {
         $('.imageOverlay').show().top
     }).mouseout(function() {
         $('.imageOverlay').hide()
+    });
+    $(window).scroll(function() {
+        // checks if window is scrolled more than 850px, adds/removes solid class
+        if($(this).scrollTop() > 850) { 
+            $('.navBar').show();
+        } else {
+            $('.navBar').hide();
+        }
     });
 });
     
